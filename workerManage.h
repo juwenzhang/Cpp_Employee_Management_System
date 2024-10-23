@@ -20,13 +20,16 @@ public:
 	void add_Emp();  // 实现的是添加职工的信息的函数
 
 	void save();  // 实现的是保存文件的函数
+
+	int get_Num(); // 统计成员人数的函数
+
+	void init_Emp();  // 实现初始化数组
 	
 	~WorkerManage();  // 声明析构函数
 
+	int m_EmpNum;  // 记录职工的人数
 
-	// 记录职工的人数
-	int m_EmpNum;
+	Worker** m_EmpArray;  // 职工的数组的指针
 
-	// 职工的数组的指针
-	Worker** m_EmpArray;
+	bool m_FileEmpty;  // 就是实现的是判断数据是否为空的标志
 };

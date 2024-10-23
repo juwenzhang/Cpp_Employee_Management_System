@@ -2,8 +2,45 @@
 
 // 构造函数功能的完善
 WorkerManage::WorkerManage() {
-	this->m_EmpNum = 0;
-	this->m_EmpArray = NULL;
+
+	// 1. 当我们的文件不存在的时候
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);  // 读文件操作
+	if (!ifs.is_open()) {
+		cout << "文件不存在" << endl;
+
+		// 实现数据的初始化
+		this->m_EmpNum = 0;
+		this->m_EmpArray = NULL;
+		this->m_FileEmpty = true;
+
+		ifs.close();
+		return;
+	}
+
+	// 2. 当文件存在，但是没有记录的时候
+	char ch;
+	ifs >> ch;
+	if (ifs.eof()) {
+		cout << "文件为空" << endl;
+
+		// 实现数据的初始化
+		this->m_EmpNum = 0;
+		this->m_EmpArray = NULL;
+		this->m_FileEmpty = true;
+		return;
+	}
+
+
+	// 3.当我们的文件存在，并且实现记录数据
+	int num = this->get_Num();
+	cout << "当前的职工人数为" << num << endl;
+	this->m_EmpNum = num;
+	// 先实现开辟空间
+	this->m_EmpArray = new Worker * [this->m_EmpNum];
+	// 然后实现赋值操作
+	this->init_Emp();
+	return;
 }
 
 void WorkerManage::Show_Menu() {
@@ -90,6 +127,8 @@ void WorkerManage::add_Emp() {
 		this->m_EmpArray = newSpace;
 		// 更新新的职工人数
 		this->m_EmpNum = newSize;
+
+		this->m_FileEmpty = false;
 		
 		cout << "成功添加了" << addNum << "名新职工" << endl;
 		this->save();  // 实现保存数据到文件中
@@ -117,6 +156,53 @@ void WorkerManage::save() {
 	ofs.close();
 }
 
+
+int WorkerManage::get_Num() {
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);
+
+	int id;
+	string name;
+	int dId;
+
+	int num = 0;  // 实现统计人数的标志
+	while (ifs >> id && ifs >> name && ifs >> dId) {
+		num++;
+	}
+
+	return num;
+}
+
+void WorkerManage::init_Emp() {
+	// 开始实现我们的初始化数组的一些功能代码
+	ifstream ifs;
+	ifs.open(FILENAME, ios::in);  // 读文件操作
+
+	int id;
+	string name; 
+	int dId;
+
+	int index = 0;
+	while (ifs >> id && ifs >> name && ifs >> dId) {
+		Worker* worker = NULL;
+		// 开始实现通过不同的部门的编号实现我们的创建不同的对象
+		if (dId == 1) {
+			worker = new Employee(id, name, dId);
+		}
+		else if (dId == 2) {
+			worker = new Manage(id, name, dId);
+		}
+		else {
+			worker = new Boss(id, name, dId);
+		}
+
+		this->m_EmpArray[index] = worker;
+		index++;
+	}
+
+	ifs.close();
+	return;
+}
 
 // 析构函数功能的实现
 WorkerManage:: ~WorkerManage() {
