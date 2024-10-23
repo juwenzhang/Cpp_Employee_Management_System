@@ -23,12 +23,14 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="EmployeeManageSystemMain.cpp" />
     <ClCompile Include="Manage.cpp" />
+    <ClCompile Include="test.cpp" />
     <ClCompile Include="workerManage.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boss.h" />
     <ClInclude Include="Employee.h" />
     <ClInclude Include="Manage.h" />
+    <ClInclude Include="test.h" />
     <ClInclude Include="Worker.h" />
     <ClInclude Include="workerManage.h" />
   </ItemGroup>
