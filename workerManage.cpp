@@ -20,6 +20,13 @@ void WorkerManage::Show_Menu() {
 	cout << endl;
 }
 
+
+void WorkerManage::Exit_System() {
+	cout << "欢迎下次到来" << endl;
+	system("pause");
+	exit(0);  // 就是表示的是不管程序在何处都直接退出
+}
+
 // 析构函数功能的实现
 WorkerManage:: ~WorkerManage() {
 	cout << "析构函数的实现" << endl;
