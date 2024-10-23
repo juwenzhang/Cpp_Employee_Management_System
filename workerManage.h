@@ -4,7 +4,10 @@
 #include "Manage.h"
 #include "Employee.h"
 #include "Boss.h"
+#include<fstream>
 using namespace std;  // 使用标准命名空间
+
+constexpr auto FILENAME = "empFile.txt";
 
 class WorkerManage {
 public:
@@ -14,7 +17,9 @@ public:
 
 	void Exit_System();  // 实现退出系统的操作
 
-	void add_Emp();
+	void add_Emp();  // 实现的是添加职工的信息的函数
+
+	void save();  // 实现的是保存文件的函数
 	
 	~WorkerManage();  // 声明析构函数
 

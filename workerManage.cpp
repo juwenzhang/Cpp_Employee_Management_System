@@ -92,6 +92,7 @@ void WorkerManage::add_Emp() {
 		this->m_EmpNum = newSize;
 		
 		cout << "成功添加了" << addNum << "名新职工" << endl;
+		this->save();  // 实现保存数据到文件中
 	}
 	else {
 		cout << "输入有误，请重新输入..." << endl;
@@ -100,6 +101,22 @@ void WorkerManage::add_Emp() {
 	system("pause");
 	system("cls");
 }
+
+
+void WorkerManage::save() {
+	ofstream ofs;
+
+	ofs.open(FILENAME, ios::out);  // 开始实现我们的写文件
+
+	for (int i = 0; i < this->m_EmpNum; i++) {
+		ofs << this->m_EmpArray[i]->m_id << " "
+			<< this->m_EmpArray[i]->name << " "
+			<< this->m_EmpArray[i]->m_DeptId << endl;
+ 	}
+
+	ofs.close();
+}
+
 
 // 析构函数功能的实现
 WorkerManage:: ~WorkerManage() {
