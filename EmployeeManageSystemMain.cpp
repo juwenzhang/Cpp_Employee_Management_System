@@ -1,9 +1,16 @@
 #include<iostream>
 #include "workerManage.h"
+#include "Worker.h"
+#include "Employee.h"
 using namespace std;
 
 // 开始实现书写我们的程序的执行入口文件
 int main() {
+	// 测试代码
+	Worker* worker = NULL;
+	worker = new Employee(1, "juwenzhang", 2);
+	worker->ShowDetailInfo();
+
 
 	// 实例化一个管理类的对象
 	WorkerManage workerMange;

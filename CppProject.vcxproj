@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="EmployeeManageSystemMain.cpp" />
     <ClCompile Include="workerManage.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="Worker.h" />
     <ClInclude Include="workerManage.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

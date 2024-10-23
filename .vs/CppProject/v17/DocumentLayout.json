@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:EmployeeManageSystemMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\workerManage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:workerManage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -22,8 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cpp",
+              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Employee.cpp",
+              "RelativeDocumentMoniker": "Employee.cpp",
+              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Employee.cpp",
+              "RelativeToolTip": "Employee.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T05:06:40.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.h",
+              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Employee.h",
+              "RelativeDocumentMoniker": "Employee.h",
+              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Employee.h",
+              "RelativeToolTip": "Employee.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T05:01:19.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Worker.h",
+              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Worker.h",
+              "RelativeDocumentMoniker": "Worker.h",
+              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\Worker.h",
+              "RelativeToolTip": "Worker.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T04:53:10.689Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,27 +83,27 @@
               "RelativeDocumentMoniker": "EmployeeManageSystemMain.cpp",
               "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\EmployeeManageSystemMain.cpp",
               "RelativeToolTip": "EmployeeManageSystemMain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-23T04:18:59.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "workerManage.cpp",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\workerManage.cpp",
               "RelativeDocumentMoniker": "workerManage.cpp",
               "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\workerManage.cpp",
               "RelativeToolTip": "workerManage.cpp",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-23T03:38:09.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "workerManage.h",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\CppProject\\workerManage.h",
               "RelativeDocumentMoniker": "workerManage.h",
@@ -60,8 +111,7 @@
               "RelativeToolTip": "workerManage.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T03:33:31.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-23T03:33:31.065Z"
             }
           ]
         }
