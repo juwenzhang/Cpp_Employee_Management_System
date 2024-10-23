@@ -48,3 +48,81 @@
 
 
 <img src="./images.png">
+
+
+
+#### 拉取项目
+
+```
+通过 https 拉取项目:
+git clone https://github.com/juwenzhang/Knowledge_Base.git
+
+通过 SSH 拉取项目:
+git clone git@github.com:juwenzhang/Knowledge_Base.git
+```
+
+#### 拉取所有分支到本地
+
+```总和
+git pull
+
+或者使用:
+git fetch
+git merge
+
+git pull 实现的是上面的两步总和，可以这么理解
+```
+
+#### 切换分支查看项目
+
+```
+git checkout 分支名
+```
+
+#### 创建分支名的规范
+
+```
+创建分支前一定要搜索对应的英文名称，做到见名思意
+
+创建分支名的指令操作
+git branch 分支名
+
+创建分支名并且切换
+git checkout -b 分支名
+
+切换分支进行操作的指令
+git checkout 分支名
+
+查看本地分支名的操作
+git branch
+
+查看远程分支名的操作
+git branch -r
+```
+
+#### 提交代码的规范
+
+```
+首先我们需要有一个要求就是
+关于 readme.md 必须单独提交， 提交信息只能是: docs: upodate readme.md
+
+其他文件的提交操作
+git add .
+git commit -m "desc"
+git push -u origin 分支名
+
+readme.md 的提交操作
+git add readme.md
+git commit -m "desc: update readme.md"
+git push -u origin 分支名
+```
+
+#### 代码提交前的注意事项
+
+```
+由于是多人办公，所以说，每次提交代码到远程仓库的时候，都是需要进行 git pull 操作
+将自己本地的代码进行更新，然后再提交代码
+```
+
+
+
