@@ -5,6 +5,8 @@ using namespace std;  // 使用标准命名空间
 class WorkerManage {
 public:
 	WorkerManage();  // 声明构造函数
+
+	void Show_Menu();  // 实现声明展示菜单的函数
 	
 	~WorkerManage();  // 声明析构函数
 };
