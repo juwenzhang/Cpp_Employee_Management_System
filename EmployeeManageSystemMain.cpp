@@ -9,7 +9,7 @@ using namespace std;
 // 开始实现书写我们的程序的执行入口文件
 int main() {
 
-	test();
+	// test();
 
 	// 实例化一个管理类的对象
 	WorkerManage workerMange;
@@ -27,6 +27,7 @@ int main() {
 			workerMange.Exit_System();
 			break;
 		case 1:
+			workerMange.add_Emp();
 			// 添加职工
 			break;
 		case 2:
