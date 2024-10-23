@@ -1,6 +1,5 @@
 // 普通的员工文件
 #pragma once
-#include<iostream>
 #include "Worker.h"
 using namespace std;
 

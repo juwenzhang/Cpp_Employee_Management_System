@@ -2,6 +2,7 @@
 #include "workerManage.h"
 #include "Worker.h"
 #include "Employee.h"
+#include "Manage.h"
 using namespace std;
 
 // 开始实现书写我们的程序的执行入口文件
@@ -10,6 +11,14 @@ int main() {
 	Worker* worker = NULL;
 	worker = new Employee(1, "juwenzhang", 2);
 	worker->ShowDetailInfo();
+
+	Worker* worker01 = NULL;
+	worker01 = new Manage(1, "76433", 2);
+	worker01->ShowDetailInfo();
+
+	Worker* worker02 = NULL;
+	worker02 = new Manage(1, "水逆信封", 2);
+	worker02->ShowDetailInfo();
 
 
 	// 实例化一个管理类的对象

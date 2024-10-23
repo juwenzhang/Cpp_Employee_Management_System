@@ -24,6 +24,12 @@
     <ClCompile Include="Employee.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Manage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="workerManage.h">
@@ -33,6 +39,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Employee.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Manage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

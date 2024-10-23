@@ -8,13 +8,13 @@ Employee::Employee(int m_id, string name, int deptId) {
 
 void Employee::ShowDetailInfo() {
 	cout << "职工编号为:" << this->m_id <<
-		  "  职工姓名为:" << this->name <<
-		  "  部门编号为:" << this->getDeptName() << 
-		  "  岗位职责: 完成经理交给的任务" << endl;
+		  "\t职工姓名为:" << this->name <<
+		  "\t部门编号为:" << this->getDeptName() << 
+		  "\t岗位职责: 完成经理交给的任务" << endl;
 }
 
 string Employee::getDeptName() {
-	return "普通员工";
+	return string("普通员工");
 }
 
 Employee::~Employee() {
