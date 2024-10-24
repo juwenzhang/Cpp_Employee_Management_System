@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:workerManage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\workerManage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:workerManage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\EmployeeManageSystemMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:EmployeeManageSystemMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\workerManage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:workerManage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Worker.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,14 +39,6 @@
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Manage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Employee.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Manage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Manage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Boss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Boss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A8B59AED-3006-43C6-AEAB-4113712472C3}|CppProject.vcxproj|solutionrelative:Employee.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,49 +66,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "test.cpp",
-              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.cpp",
-              "RelativeDocumentMoniker": "test.cpp",
-              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.cpp",
-              "RelativeToolTip": "test.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T11:25:38.371Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Boss.cpp",
-              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Boss.cpp",
-              "RelativeDocumentMoniker": "Boss.cpp",
-              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Boss.cpp",
-              "RelativeToolTip": "Boss.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T07:30:11.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Employee.cpp",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.cpp",
               "RelativeDocumentMoniker": "Employee.cpp",
               "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.cpp",
               "RelativeToolTip": "Employee.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAhwBMAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAhwBMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-23T05:06:40.29Z"
+              "WhenOpened": "2024-10-23T05:06:40.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EmployeeManageSystemMain.cpp",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\EmployeeManageSystemMain.cpp",
               "RelativeDocumentMoniker": "EmployeeManageSystemMain.cpp",
               "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\EmployeeManageSystemMain.cpp",
               "RelativeToolTip": "EmployeeManageSystemMain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-23T04:18:59.111Z",
               "EditorCaption": ""
@@ -121,27 +98,27 @@
               "RelativeDocumentMoniker": "workerManage.cpp",
               "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\workerManage.cpp",
               "RelativeToolTip": "workerManage.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "ViewState": "AQIAAO0AAAAAAAAAAAAAAPgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-23T03:38:09.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "workerManage.h",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\workerManage.h",
               "RelativeDocumentMoniker": "workerManage.h",
               "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\workerManage.h",
               "RelativeToolTip": "workerManage.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAdAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-23T03:33:31.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Worker.h",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Worker.h",
               "RelativeDocumentMoniker": "Worker.h",
@@ -153,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Manage.h",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Manage.h",
               "RelativeDocumentMoniker": "Manage.h",
@@ -165,7 +142,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "Employee.h",
+              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.h",
+              "RelativeDocumentMoniker": "Employee.h",
+              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.h",
+              "RelativeToolTip": "Employee.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-23T05:01:19.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.cpp",
+              "RelativeToolTip": "test.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T11:25:38.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Boss.cpp",
+              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Boss.cpp",
+              "RelativeDocumentMoniker": "Boss.cpp",
+              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Boss.cpp",
+              "RelativeToolTip": "Boss.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-23T07:30:11.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Manage.cpp",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Manage.cpp",
               "RelativeDocumentMoniker": "Manage.cpp",
@@ -178,18 +193,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Employee.h",
-              "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.h",
-              "RelativeDocumentMoniker": "Employee.h",
-              "ToolTip": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Employee.h",
-              "RelativeToolTip": "Employee.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-23T05:01:19.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Boss.h",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\Boss.h",
               "RelativeDocumentMoniker": "Boss.h",
@@ -201,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "test.h",
               "DocumentMoniker": "D:\\Personal_Project\\Personal_Cpp_project\\Knowledge_Base\\test.h",
               "RelativeDocumentMoniker": "test.h",

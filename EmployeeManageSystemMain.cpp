@@ -27,14 +27,16 @@ int main() {
 			workerMange.Exit_System();
 			break;
 		case 1:
-			workerMange.add_Emp();
 			// 添加职工
+			workerMange.add_Emp();
 			break;
 		case 2:
 			// 显示职工
+			workerMange.show_Emp();
 			break;
 		case 3:
 			// 删除职工
+			workerMange.Del_Emp();
 			break;
 		case 4:
 			// 修改职工

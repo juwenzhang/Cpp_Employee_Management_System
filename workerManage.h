@@ -24,6 +24,12 @@ public:
 	int get_Num(); // 统计成员人数的函数
 
 	void init_Emp();  // 实现初始化数组
+
+	void show_Emp(); // 实现展现员工的信息的函数
+
+	int IsExist(int id);  // 判断职工是否存在
+
+	void Del_Emp();  // 实现的是删除职工的功能
 	
 	~WorkerManage();  // 声明析构函数
 

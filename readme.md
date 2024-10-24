@@ -113,7 +113,7 @@ git push -u origin 分支名
 
 readme.md 的提交操作
 git add readme.md
-git commit -m "desc: update readme.md"
+git commit -m "docs: update readme.md"
 git push -u origin 分支名
 ```
 

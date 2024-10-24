@@ -204,6 +204,54 @@ void WorkerManage::init_Emp() {
 	return;
 }
 
+void WorkerManage::show_Emp() {
+	// 首先现判断我们的文件是否为空
+	if (this->m_FileEmpty) {
+		cout << "文件为空或者文件不存在" << endl;
+	}
+	// 否则就直接显示员工即可
+	else {
+		for (int i = 0; i < this->m_EmpNum; i++) {
+			this->m_EmpArray[i]->ShowDetailInfo();
+		}
+	}
+	system("pause");
+	system("cls");
+}
+
+
+int WorkerManage::IsExist(int id) {
+	int index;
+
+	for (int i = 0; i < this->m_EmpNum; i++) {
+		if (this->m_EmpArray[i]->m_id == id) {
+			index = i;
+			break;
+		}
+	}
+
+	return index;
+}
+
+void WorkerManage::Del_Emp() {
+	int del_id;
+	cout << "请输入你要删除的职工编号" << endl;
+	cin >> del_id;
+	int index = this->IsExist(del_id);
+
+	if (index == -1) {
+		cout << "你需要删除的职工不存在，请重新输入职工编号..." << endl;
+		return;
+	}
+
+
+	cout << "职工删除成功,删除的职工信息是:" << endl;
+	this->m_EmpArray[index - 1]->ShowDetailInfo();
+	delete this->m_EmpArray[index];
+	system("pause");
+	system("cls");
+}
+
 // 析构函数功能的实现
 WorkerManage:: ~WorkerManage() {
 	if (this->m_EmpArray != NULL) {
