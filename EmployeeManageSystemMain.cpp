@@ -40,6 +40,7 @@ int main() {
 			break;
 		case 4:
 			// 修改职工
+			workerMange.Mod_Emp();
 			break;
 		case 5:
 			// 查找职工

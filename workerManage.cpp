@@ -239,8 +239,10 @@ void WorkerManage::Del_Emp() {
 	*/ 
 	if (this->m_FileEmpty) {
 		cout << "文件不存在或者文件为空....";
+		this->add_Emp();
 	}
 	else {
+		this, show_Emp();
 		cout << "请输入需要删除的职工编号:" << endl;
 		int id = 0;
 		cin >> id;
@@ -257,9 +259,69 @@ void WorkerManage::Del_Emp() {
 			this->save();
 
 			cout << "删除用户成功" << endl;
+			this->show_Emp();
 		}
 		else {
 			cout << "删除失败，未找到该职工..." << endl;
+		}
+	}
+	system("pause");
+	system("cls");
+}
+
+void WorkerManage::Mod_Emp() {
+	if (this->m_FileEmpty) {
+		cout << "数据为空，请直接添加员工..." << endl;
+		this->add_Emp();
+	}
+	else {
+		this->show_Emp();
+		cout << "请输入需要修改的职工编号:" << endl;
+		int id;
+		cin >> id;
+		int index = this->IsExist(id);
+
+		if (index != -1) {
+			int m_id;
+			string m_name;
+			int m_DeptId;
+
+			cout << "请输入新的职工编号：" << endl;
+			cin >> m_id;
+
+			cout << "请输入新的职工姓名" << endl;
+			cin >> m_name;
+
+			cout << "请输入新的职工职位编号" << endl <<
+				"1. 普通员工" << endl <<
+				"2. 经理" << endl <<
+				"3. 老板:" << endl;;
+			cin >> m_DeptId;
+
+			// 实现更新数据
+			Worker* worker = NULL;
+			switch (m_DeptId) {
+			case 1:
+				worker = new Employee(m_id, m_name, m_DeptId);
+				break;
+			case 2:
+				worker = new Manage(m_id, m_name, m_DeptId);
+				break;
+			case 3:
+				worker = new Boss(m_id, m_name, m_DeptId);
+				break;
+			default:
+				break;
+			}
+			this->m_EmpArray[index] = worker;
+
+			this->save();
+
+			cout << "员工信息修改成功" << endl;
+			this->show_Emp();
+		}
+		else {
+			cout << "信息错误，员工不存在..." << endl;
 		}
 	}
 	system("pause");

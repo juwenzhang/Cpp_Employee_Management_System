@@ -30,6 +30,8 @@ public:
 	int IsExist(int id);  // 判断职工是否存在
 
 	void Del_Emp();  // 实现的是删除职工的功能
+
+	void Mod_Emp();  // 修改职工的功能 
 	
 	~WorkerManage();  // 声明析构函数
 
