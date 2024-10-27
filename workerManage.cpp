@@ -221,7 +221,7 @@ void WorkerManage::show_Emp() {
 
 
 int WorkerManage::IsExist(int id) {
-	int index;
+	int index = -1;
 
 	for (int i = 0; i < this->m_EmpNum; i++) {
 		if (this->m_EmpArray[i]->m_id == id) {
@@ -234,20 +234,34 @@ int WorkerManage::IsExist(int id) {
 }
 
 void WorkerManage::Del_Emp() {
-	int del_id;
-	cout << "请输入你要删除的职工编号" << endl;
-	cin >> del_id;
-	int index = this->IsExist(del_id);
-
-	if (index == -1) {
-		cout << "你需要删除的职工不存在，请重新输入职工编号..." << endl;
-		return;
+	/** 
+	 * 开始实现判断我们的职工是否存在
+	*/ 
+	if (this->m_FileEmpty) {
+		cout << "文件不存在或者文件为空....";
 	}
+	else {
+		cout << "请输入需要删除的职工编号:" << endl;
+		int id = 0;
+		cin >> id;
+		int index = this->IsExist(id);
 
+		if (index != -1) {  // 说明职工是存在的
+			for (int i = index; i < this->m_EmpNum - 1; i++) {
+				// 实现的是我们的数据前移的操作
+				this->m_EmpArray[i] = this->m_EmpArray[i + 1];
+			}
+			this->m_EmpNum--;
 
-	cout << "职工删除成功,删除的职工信息是:" << endl;
-	this->m_EmpArray[index - 1]->ShowDetailInfo();
-	delete this->m_EmpArray[index];
+			// 开始实现将我们的数据同步到文件中
+			this->save();
+
+			cout << "删除用户成功" << endl;
+		}
+		else {
+			cout << "删除失败，未找到该职工..." << endl;
+		}
+	}
 	system("pause");
 	system("cls");
 }
